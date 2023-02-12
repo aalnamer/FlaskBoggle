@@ -1,0 +1,9 @@
+{% extends 'base.html' %} {%block title%} Home Page{% endblock %} {% block
+content %}
+<h1>Boggle Game!</h1>
+<p>Click the button below to start!</p>
+<form action="/board" method="post">
+  <button>Start!</button>
+</form>
+
+{% endblock %}
